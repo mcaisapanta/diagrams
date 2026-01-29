@@ -1,0 +1,148 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.6">
+  <diagram name="Page-1" id="GDV4VbG--q1VJQCHmhqx">
+    <mxGraphModel dx="1665" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-19" parent="1" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="COMPUTE ENGINE" vertex="1">
+          <mxGeometry height="1107" width="450" x="50" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-23" parent="1" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="CLOUD SQL" vertex="1">
+          <mxGeometry height="207" width="260" x="520" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-2" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=light-dark(#4285f4, #b17dff);fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" value="&lt;span style=&quot;color: light-dark(rgb(128, 128, 128), rgb(237, 237, 237));&quot;&gt;VPC vpc-unemi-web 10.8.0.0/24 &lt;/span&gt;" vertex="1">
+          <mxGeometry height="1427" width="800" x="20" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-22" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="Bvy8pvlp3gkBLCk9PIfI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qwW9w7x8imD3UTdmR_OL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-1" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="&lt;div&gt;unemi-edu-ec-koha-biblioteca&lt;/div&gt;&lt;div&gt;10.8.0.25 / 34.48.127.30&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="334" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-3" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-titulosenescyt&lt;br&gt;10.8.0.29 / 34.86.63.236" vertex="1">
+          <mxGeometry height="50" width="50" x="334" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-21" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="Bvy8pvlp3gkBLCk9PIfI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Bvy8pvlp3gkBLCk9PIfI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-4" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-aulagradohistorico-moodle&lt;br&gt;10.8.0.23 / 35.245.246.181" vertex="1">
+          <mxGeometry height="50" width="50" x="334" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-5" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-cafeteria-react-flask&lt;br&gt;10.8.0.22 / 34.86.0.24" vertex="1">
+          <mxGeometry height="50" width="50" x="114" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-7" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-sag-django&lt;br&gt;10.8.0.16 / 34.48.65.13" vertex="1">
+          <mxGeometry height="50" width="50" x="114" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-20" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="mdl_unemi_aulagradohistorico_2024" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-31" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UNEMI-MOODLE-SQL&lt;br&gt;172.25.16.3&amp;nbsp;/ 34.48.15.149" vertex="1">
+          <mxGeometry height="30" width="150" x="550" y="227" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-33" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=light-dark(#ea4335, #c380c2);strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.firewall_2;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="270" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-34" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=light-dark(#ea4335, #c380c2);strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.firewall_2;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="600" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-2" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-web01-html&lt;br&gt;10.8.0.13 / 34.145.225.81" vertex="1">
+          <mxGeometry height="50" width="50" x="114" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-3" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-fhdresden-html&lt;br&gt;10.8.0.11 / 35.245.163.190" vertex="1">
+          <mxGeometry height="50" width="50" x="114" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-6" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-www-wp&lt;br&gt;10.8.0.2 / 34.85.194.138" vertex="1">
+          <mxGeometry height="50" width="50" x="334" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-43" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="qwW9w7x8imD3UTdmR_OL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qwW9w7x8imD3UTdmR_OL-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-7" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-ojs&lt;br&gt;10.8.0.7 / 34.86.51.248" vertex="1">
+          <mxGeometry height="50" width="50" x="334" y="907" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-8" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-web02-django&lt;br&gt;10.8.0.18 / 34.150.244.250" vertex="1">
+          <mxGeometry height="50" width="50" x="334" y="687" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-9" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-repositorio-dspace&lt;br&gt;10.8.0.8 / 34.150.251.39" vertex="1">
+          <mxGeometry height="50" width="50" x="334" y="797" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-13" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="CLOUD SQL" vertex="1">
+          <mxGeometry height="294" width="260" x="500" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-14" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="kh_biblioteca_unemi_edu_ec" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-16" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UNEMI-WEB-SQL&lt;br&gt;35.245.115.148" vertex="1">
+          <mxGeometry height="30" width="190" x="535" y="597" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-17" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=light-dark(#ea4335, #c380c2);strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.firewall_2;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="600" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-18" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="&lt;div class=&quot;cfc-pre-wrap&quot;&gt;wp_unemi_edu_ec&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="507" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-25" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="qwW9w7x8imD3UTdmR_OL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="qwW9w7x8imD3UTdmR_OL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-30" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="CLOUD SQL" vertex="1">
+          <mxGeometry height="700" width="260" x="500" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-31" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="deva_unemi_edu_ec" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="747" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-32" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UNEMI-WEB-PGSQL&lt;br&gt;35.245.84.19" vertex="1">
+          <mxGeometry height="30" width="190" x="535" y="1346" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-33" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=light-dark(#ea4335, #c380c2);strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.firewall_2;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="600" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-34" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="repositorio_unemi_edu_ec" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="837" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-38" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="qwW9w7x8imD3UTdmR_OL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="qwW9w7x8imD3UTdmR_OL-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-39" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="qwW9w7x8imD3UTdmR_OL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="qwW9w7x8imD3UTdmR_OL-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-40" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="ojs_unemi_edu_ec" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="927" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-44" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="colim" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="1017" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-45" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="qwW9w7x8imD3UTdmR_OL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qwW9w7x8imD3UTdmR_OL-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-5" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-divulgacion-cientifica&lt;br&gt;10.8.0.27 / 34.145.230.159" vertex="1">
+          <mxGeometry height="50" width="50" x="334" y="1017" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-46" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="divulgacion_unemi_edu_ec" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="1097" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-47" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="qwW9w7x8imD3UTdmR_OL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="qwW9w7x8imD3UTdmR_OL-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-48" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="&lt;div class=&quot;cfc-pre-wrap ng-star-inserted&quot;&gt;ictiair_unemi_edu_ec&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="1177" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-49" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="qwW9w7x8imD3UTdmR_OL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="qwW9w7x8imD3UTdmR_OL-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-50" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="&lt;div class=&quot;cfc-pre-wrap ng-star-inserted&quot;&gt;iberoamericano_unemi_edu_ec&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="1257" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-51" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="qwW9w7x8imD3UTdmR_OL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="qwW9w7x8imD3UTdmR_OL-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;UNEMI-WEB&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="20" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="qwW9w7x8imD3UTdmR_OL-35" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="unemi-edu-ec-git-gitlab&lt;br&gt;10.8.0.12 / 34.48.90.125" vertex="1">
+          <mxGeometry height="50" width="50" x="350" y="747" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
