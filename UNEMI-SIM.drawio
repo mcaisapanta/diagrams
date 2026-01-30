@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.6">
+  <diagram name="Page-1" id="GDV4VbG--q1VJQCHmhqx">
+    <mxGraphModel dx="1665" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-2" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=light-dark(#4285f4, #b17dff);fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" value="&lt;span style=&quot;color: light-dark(rgb(128, 128, 128), rgb(237, 237, 237));&quot;&gt;VPC vpc-unemi-sim 10.8.0.0/24 &lt;/span&gt;" vertex="1">
+          <mxGeometry height="413" width="600" x="20" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-19" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="COMPUTE ENGINE" vertex="1">
+          <mxGeometry height="203" width="240" x="40" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-23" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="CLOUD SQL" vertex="1">
+          <mxGeometry height="292" width="260" x="300" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-4" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#4285f4, #d86d0c);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.compute;" value="sim-unemi-edu-ec&lt;br&gt;10.8.0.2 / 34.21.9.80" vertex="1">
+          <mxGeometry height="50" width="50" x="134" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-20" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="wp_unemi_sim" vertex="1">
+          <mxGeometry height="50" width="50" x="400" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-31" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UNEMI-SIM-MYSQL&lt;span&gt; 35.245.124.159&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="340" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-33" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=light-dark(#ea4335, #c380c2);strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.firewall_2;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="130" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-34" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=light-dark(#ea4335, #c380c2);strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.firewall_2;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="400" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lXItsIC1PqTCuU5SWfoN-1" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="Bvy8pvlp3gkBLCk9PIfI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="Bvy8pvlp3gkBLCk9PIfI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FTqgWqVVUg4ABpo4g7Bv-1" parent="Bvy8pvlp3gkBLCk9PIfI-2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#e37400, #ff7cff);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" value="&lt;div class=&quot;cfc-pre-wrap&quot;&gt;www-sim&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="400" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="FTqgWqVVUg4ABpo4g7Bv-2" edge="1" parent="Bvy8pvlp3gkBLCk9PIfI-2" source="Bvy8pvlp3gkBLCk9PIfI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FTqgWqVVUg4ABpo4g7Bv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvy8pvlp3gkBLCk9PIfI-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;UNEMI-SIM&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="20" y="115" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
